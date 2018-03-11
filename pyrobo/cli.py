@@ -3,16 +3,16 @@
 """Console script for pyrobo."""
 import sys
 import click
+from pyrobo.pyrobo import hablame
 
 
 @click.command()
-def main(args=None):
+@click.argument('pos', type=int, required=False)
+def main(pos=None):
     """Console script for pyrobo."""
-    click.echo("Replace this message by putting your code into "
-               "pyrobo.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    hablame(pos)
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())  # pragma: no cover
+    sys.exit(main())
