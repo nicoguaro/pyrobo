@@ -13,6 +13,10 @@ Pyrobo
         :target: https://pyrobo.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://pyup.io/repos/github/pyupio/pyup/shield.svg
+     :target: https://pyup.io/repos/github/nicoguaro/pyrobo
+     :alt: Updates
+
 
 Pyrobo contiene frases de la película colombiana La vendedora de rosas
 de Víctor Gaviria, basada en el cuento La vendedora de cerillas

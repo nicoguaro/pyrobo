@@ -30,7 +30,7 @@ def test_content(response):
 def test_command_line_interface():
     """Test the CLI."""
     runner = CliRunner()
-    result = runner.invoke(cli.main)
+    result = runner.invoke(cli.main, ['1'])
     assert result.exit_code == 0
     assert '¡Abrite que ya perdiste maricona!' in result.output
     help_result = runner.invoke(cli.main, ['--help'])
