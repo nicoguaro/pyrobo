@@ -17,7 +17,7 @@ personajes = ["Chinga", "El Zarco", "El Zarco", "Andrea"]
 
 def hablame(pos=None):
     """Imprime una frase de la vendedora de rosas
-    
+
     Parámetros
     ----------
     val : int, opcional
@@ -30,6 +30,6 @@ def hablame(pos=None):
     frase = frases[pos]
     personaje = personajes[pos]
     espacios_autor = (len(frase) - len(personaje))*" "
-    msj = "❝{}❞\n\n{}{}".format(frase,espacios_autor, personaje)
+    msj = "❝{}❞\n\n{}{}".format(frase, espacios_autor, personaje)
     print(msj)
     return None
