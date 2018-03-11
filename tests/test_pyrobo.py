@@ -32,7 +32,7 @@ def test_command_line_interface():
     runner = CliRunner()
     result = runner.invoke(cli.main)
     assert result.exit_code == 0
-    assert 'pyrobo.cli.main' in result.output
+    assert '¡Abrite que ya perdiste maricona!' in result.output
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output
@@ -42,7 +42,7 @@ def test_hablame(capsys):
     """We use the capsys argument to capture printing to stdout."""
     assert pyrobo.hablame(1) == None
   
-    # Capture the result of the arepas.ingredients() function call.
+    # Capture the result of the pyrobo.hablame() function call.
     captured = capsys.readouterr()
 
     # If we check captured, we can see that the ingredients have been printed.
