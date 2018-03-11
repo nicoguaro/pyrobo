@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
+u"""
 Pyrobo contiene frases de la película colombiana
 La vendedora de rosas, basada en el cuento La vendedora de cerillas
 (The little match girl) de Hans Christian Andersen.
@@ -8,15 +8,15 @@ La vendedora de rosas, basada en el cuento La vendedora de cerillas
 from __future__ import print_function
 from numpy.random import random_integers
 
-frases = ["¿Pa' qué zapatos si no hay casa, pa' qué hijueputas?",
-          "¡Abrite que ya perdiste maricona!",
-          "¡Que coma mierda el culo!",
-          "Me la mecatié en cositas."]
+frases = [u"¿Pa' qué zapatos si no hay casa, pa' qué hijueputas?",
+          u"¡Abrite que ya perdiste maricona!",
+          u"¡Que coma mierda el culo!",
+          u"Me la mecatié en cositas."]
 personajes = ["Chinga", "El Zarco", "El Zarco", "Andrea"]
 
 
 def hablame(pos=None):
-    """Imprime una frase de la vendedora de rosas
+    u"""Imprime una frase de la vendedora de rosas
 
     Parámetros
     ----------
@@ -30,6 +30,6 @@ def hablame(pos=None):
     frase = frases[pos]
     personaje = personajes[pos]
     espacios_autor = (len(frase) - len(personaje))*" "
-    msj = "❝{}❞\n\n{}{}".format(frase, espacios_autor, personaje)
+    msj = u"❝{}❞\n\n{}{}".format(frase, espacios_autor, personaje)
     print(msj)
     return None
