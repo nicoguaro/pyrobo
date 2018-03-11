@@ -1,128 +1,129 @@
 .. highlight:: shell
 
-============
-Contributing
-============
+=========================
+¿Cómo contribuir a pyrobo?
+=========================
 
-Contributions are welcome, and they are greatly appreciated! Every little bit
-helps, and credit will always be given.
+¡Las contribuciones son bienvenidas, y muy apreciadas! Cada detalle
+ayuda, y el crédito siempre será dado.
 
-You can contribute in many ways:
+Puedes contribuir de muchas maneras:
 
-Types of Contributions
+Tipos de contribuciones
 ----------------------
 
-Report Bugs
-~~~~~~~~~~~
+Reportar errores
+~~~~~~~~~~~~~~~~
 
-Report bugs at https://github.com/nicoguaro/pyrobo/issues.
+Informando errores en https://github.com/nicoguaro/pyrobo/issues.
 
-If you are reporting a bug, please include:
+Si informa un error, incluya lo siguiente:
 
-* Your operating system name and version.
-* Any details about your local setup that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+* El nombre y la versión de su sistema operativo.
+* Cualquier detalle sobre su configuración local que pueda ser útil para solucionar problemas.
+* Pasos detallados para reproducir el error.
 
-Fix Bugs
-~~~~~~~~
+Corregir errores
+~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for bugs. Anything tagged with "bug" and "help
-wanted" is open to whoever wants to implement it.
+Consulte los *issues* de GitHub  para encontrar errores. Cualquier cosa etiquetada con "error" y "help wanted" está abierta a quien quiera implementarlo.
 
-Implement Features
+Implementar funciones
+~~~~~~~~~~~~~~~~~~~~~
+
+Consulte los problemas de GitHub para conocer las características.
+Cualquier cosa etiquetada con "enhancement" y "help wanted" está
+abierto a quien quiera implementarlo.
+
+Escribir documentación
+~~~~~~~~~~~~~~~~~~~~~~
+
+pyrobo siempre podría tener más documentación, ya sea como parte de la
+documentos oficiales de pyrobo, en docstrings, o incluso en la web como
+publicaciones de blogs, artículos, etc.
+
+Enviar comentarios
 ~~~~~~~~~~~~~~~~~~
 
-Look through the GitHub issues for features. Anything tagged with "enhancement"
-and "help wanted" is open to whoever wants to implement it.
+La mejor forma de enviar comentarios es presentar un problema en https://github.com/nicoguaro/pyrobo/issues.
 
-Write Documentation
-~~~~~~~~~~~~~~~~~~~
+Si está proponiendo una nueva funcionalidad:
 
-pyrobo could always use more documentation, whether as part of the
-official pyrobo docs, in docstrings, or even on the web in blog posts,
-articles, and such.
+* Explica en detalle cómo funcionaría.
+* Mantenga el alcance lo más estrecho posible, para que sea más fácil de implementar.
+* Recuerde que este es un proyecto impulsado por voluntarios, y que las contribuciones
+  son bienvenidos :)
 
-Submit Feedback
-~~~~~~~~~~~~~~~
+¡Empieza!
+---------
 
-The best way to send feedback is to file an issue at https://github.com/nicoguaro/pyrobo/issues.
+¿Listo para contribuir? A continuación se explica cómo configurar `pyrobo` para el desarrollo local.
 
-If you are proposing a feature:
+1. *Fork* el repositorio `pyrobo` en GitHub.
+2. Clona tu tenedor localmente ::
 
-* Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+    $ git clone git@github.com: tu_nombre_aquí / pyrobo.git
 
-Get Started!
-------------
-
-Ready to contribute? Here's how to set up `pyrobo` for local development.
-
-1. Fork the `pyrobo` repo on GitHub.
-2. Clone your fork locally::
-
-    $ git clone git@github.com:your_name_here/pyrobo.git
-
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
+3. Instala tu copia local en un virtualenv. Suponiendo que tienes virtualenvwrapper instalado, así es como configura su tenedor para el desarrollo local ::
 
     $ mkvirtualenv pyrobo
-    $ cd pyrobo/
-    $ python setup.py develop
+    $ cd pyrobo /
+    $ python setup.py desarrollar
 
-4. Create a branch for local development::
+4. Crear una rama para el desarrollo local ::
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+    $ git checkout -b nombre-de-tu-corrección de errores-o-función
 
-   Now you can make your changes locally.
+   Ahora puedes hacer tus cambios localmente.
 
-5. When you're done making changes, check that your changes pass flake8 and the
-   tests, including testing other Python versions with tox::
+5. Cuando termine de hacer cambios, verifique que sus cambios pasen a flake8 y al
+   pruebas, incluida la prueba de otras versiones de Python con tox ::
 
-    $ flake8 pyrobo tests
-    $ python setup.py test or py.test
+    Pruebas de $ flake8 pyrobo
+    $ python setup.py test o py.test
     $ tox
 
-   To get flake8 and tox, just pip install them into your virtualenv.
+   Para obtener Flake8 y tox, simplemente pip instálelos en su Virtualenv.
 
-6. Commit your changes and push your branch to GitHub::
+6. Confirme sus cambios y envíe su sucursal a GitHub ::
 
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+    $ git add.
+    $ git commit -m "Su descripción detallada de sus cambios".
+    $ git push origen nombre-de-tu-corrección de errores-o-característica
 
-7. Submit a pull request through the GitHub website.
+7. Presente una solicitud de extracción a través del sitio web de GitHub.
 
-Pull Request Guidelines
------------------------
+Pautas para *Pull Request*
+--------------------------
 
-Before you submit a pull request, check that it meets these guidelines:
+Antes de enviar una solicitud de extracción, verifique que cumpla con estas pautas:
 
-1. The pull request should include tests.
-2. If the pull request adds functionality, the docs should be updated. Put
-   your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
-3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
+1. La solicitud de extracción debe incluir pruebas.
+2. Si la solicitud de extracción agrega funcionalidad, los documentos deben actualizarse. Poner
+   su nueva funcionalidad en una función con un docstring, y agregue el
+   característica a la lista en README.rst.
+3. La solicitud de extracción debería funcionar para Python 2.7, 3.4, 3.5 y 3.6, y para PyPy. Comprobar
    https://travis-ci.org/nicoguaro/pyrobo/pull_requests
-   and make sure that the tests pass for all supported Python versions.
+   y asegúrese de que las pruebas pasen para todas las versiones compatibles de Python.
 
-Tips
-----
+Consejos
+--------
 
-To run a subset of tests::
+Para ejecutar un subconjunto de pruebas ::
 
 $ py.test tests.test_pyrobo
 
 
-Deploying
----------
+Despliegue
+----------
 
-A reminder for the maintainers on how to deploy.
-Make sure all your changes are committed (including an entry in HISTORY.rst).
-Then run::
+Un recordatorio para los mantenedores sobre cómo implementar.
 
-$ bumpversion patch # possible: major / minor / patch
+Asegúrese de que se hayan confirmado todos sus cambios (incluida una entrada en HISTORY.rst).
+Entonces corre::
+
+Parche de $ bumpversion # posible: mayor / menor / parche
 $ git push
-$ git push --tags
+$ git push - tags
 
-Travis will then deploy to PyPI if tests pass.
+Travis luego se desplegará en PyPI si pasan las pruebas.

@@ -1,13 +1,13 @@
-=======
-Credits
-=======
+========
+Créditos
+========
 
-Development Lead
-----------------
+Desarrollador principal
+-----------------------
 
 * Nicolas Guarin-Zapata <nicoguarin@gmail.com>
 
-Contributors
-------------
+Contribuciones
+--------------
 
-None yet. Why not be the first?
+Ninguna aún. ¿Por qué no ser el primero?

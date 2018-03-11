@@ -1,5 +1,5 @@
 ======
-pyrobo
+Pyrobo
 ======
 
 
@@ -14,24 +14,19 @@ pyrobo
         :alt: Documentation Status
 
 
+Pyrobo contiene frases de la película colombiana La vendedora de rosas
+de Víctor Gaviria, basada en el cuento La vendedora de cerillas
+(The little match girl) de Hans Christian Andersen.
+
+* Software libre: licencia MIT
+* Documentación: https://pyrobo.readthedocs.io
 
 
-Pyrobo contiene frases de la película colombiana La vendedora de rosas, basada en el cuento La vendedora de cerillas.
-
-
-* Free software: MIT license
-* Documentation: https://pyrobo.readthedocs.io.
-
-
-Features
+Créditos
 --------
 
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+Este paquete fue creado con Cookiecutter_ y la plantilla de proyecto de
+`audreyr/cookiecutter-pypackage`_.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage

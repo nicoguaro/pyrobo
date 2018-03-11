@@ -1,46 +1,47 @@
 .. highlight:: shell
 
-============
-Installation
-============
+===========
+Instalación
+===========
 
 
-Stable release
---------------
+Versión estable
+---------------
 
-To install pyrobo, run this command in your terminal:
+Para instalar pyrobo, ejecute el siguiente comando en una terminal:
 
 .. code-block:: console
 
     $ pip install pyrobo
 
-This is the preferred method to install pyrobo, as it will always install the most recent stable release.
+Esta es la forma recomendada de instalar pyrobo, ya que siempre instala la
+versión estable más reciente.
 
-If you don't have `pip`_ installed, this `Python installation guide`_ can guide
-you through the process.
+Si no tiene `pip`_ instalado, esta `guía de instalación de Python`_ puede
+guiarte en el proceso.
 
 .. _pip: https://pip.pypa.io
 .. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
 
 
-From sources
-------------
+Desde código fuente
+-------------------
 
-The sources for pyrobo can be downloaded from the `Github repo`_.
+El código fuente para pyrobo se pueden descargar del `repo de Github`_.
 
-You can either clone the public repository:
+Puede clonar el repositorio público:
 
 .. code-block:: console
 
     $ git clone git://github.com/nicoguaro/pyrobo
 
-Or download the `tarball`_:
+O descargar el archivo `tarball`_:
 
 .. code-block:: console
 
     $ curl  -OL https://github.com/nicoguaro/pyrobo/tarball/master
 
-Once you have a copy of the source, you can install it with:
+Una vez tenga una copia de los archivos fuente, puede instalar con:
 
 .. code-block:: console
 

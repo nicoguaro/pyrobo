@@ -11,20 +11,20 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = ['Click>=6.0', 'numpy']
 
 setup_requirements = ['pytest-runner', ]
 
 test_requirements = ['pytest', ]
 
 setup(
-    author="Nicolas Guarin-Zapata",
+    author="Nicolás Guarín-Zapata",
     author_email='nicoguarin@gmail.com',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Natural Language :: English',
+        'Natural Language :: Spanish',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',

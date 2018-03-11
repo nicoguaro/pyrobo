@@ -1,5 +1,5 @@
-Welcome to pyrobo's documentation!
-======================================
+¡Bienvenido a la documentación de pyrobo!
+=========================================
 
 .. toctree::
    :maxdepth: 2
@@ -13,8 +13,8 @@ Welcome to pyrobo's documentation!
    authors
    history
 
-Indices and tables
-==================
+Índices y tablas
+================
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

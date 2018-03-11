@@ -1,7 +1,7 @@
-=====
-Usage
-=====
+===
+Uso
+===
 
-To use pyrobo in a project::
+Para usar pyrobo en un proyecto::
 
     import pyrobo
