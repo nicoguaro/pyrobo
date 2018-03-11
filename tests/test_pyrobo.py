@@ -46,8 +46,8 @@ def test_hablame(capsys):
     captured = capsys.readouterr()
 
     # If we check captured, we can see that the ingredients have been printed.
-    assert "❝¡Abrite que ya perdiste maricona!❞" in captured.out
-    assert "\n\n" in captured.out    
-    assert "El Zarco" in captured.out
+    assert u"❝¡Abrite que ya perdiste maricona!❞" in captured.out
+    assert u"\n\n" in captured.out    
+    assert u"El Zarco" in captured.out
   
    
