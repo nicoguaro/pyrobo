@@ -11,8 +11,20 @@ from numpy.random import random_integers
 frases = [u"¿Pa' qué zapatos si no hay casa, pa' qué hijueputas?",
           u"¡Abrite que ya perdiste maricona!",
           u"¡Que coma mierda el culo!",
-          u"Me la mecatié en cositas."]
-personajes = ["Chinga", "El Zarco", "El Zarco", "Andrea"]
+          u"Me la mecatié en cositas.",
+          u"Usted está muy engalocha'o.",
+          u"Yo le doy lengua a lo mango."]
+
+frases_educadas = [
+    u"¿Para qué zapatos sin casa, para qué, prole de meretriz?",
+    u"¡Abrite que ya perdiste maricona!",
+    u"¡Que ingiera heces el ano!",
+    u"La invertí en cosas baladís.",
+    u"Aspirar pegamento nubló tu juicio.",
+    u"Yo te lamería de la misma forma que lo hago con un mango."]
+
+personajes = ["Chinga", "El Zarco", "El Zarco", "Andrea", u"Mónica", 
+              "Alex", ]
 
 
 def hablame(pos=None):
