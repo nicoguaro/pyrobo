@@ -20,7 +20,7 @@ frases = [
     u"¿Hey enano, esa gonorrea porque se encaleta ome, o es que el traído viene enfierrado?",
     u"¡Uy esta gonorrea nos dañó el 24 ome!, ¡qué gonorrea ome!",
     u"¡Oee, oee, fuck you men gonorreas!",
-    u"Hágale que todo bien.".
+    u"Hágale que todo bien.",
     u"¡¿No pues que ya no metías nada ome?!",
     u"Tenga la bondad de respetarme si usted quiere que lo respeten, ¡maricón!"]
 
@@ -36,7 +36,7 @@ frases_cultas = [
     u"¡Disculpa pequeño! ¿Por qué se esconde? ¿trae el caballo de Troya?",
     u"¡Este sujeto arruinó nuestra noche buena!",
     u"¡Oigan! ¡bless your hearts, buenos hombres!",
-    u"Adelante, no hay líos.".
+    u"Adelante, no hay líos.",
     u"Pensaba que practibas la abstinencia.",
     u"El respeto dado es la medida del respeto recibido, ¡buen hombre!"]
 
