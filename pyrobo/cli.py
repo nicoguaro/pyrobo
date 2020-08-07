@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Console script for pyrobo."""
+"""Script de consola para pyrobo."""
 import sys
 import click
 from pyrobo.pyrobo import hablame
@@ -9,7 +9,7 @@ from pyrobo.pyrobo import hablame
 @click.command()
 @click.argument('pos', type=int, required=False)
 def main(pos=None):
-    """Console script for pyrobo."""
+    """Script de consola para pyrobo."""
     hablame(pos)
     return 0
 

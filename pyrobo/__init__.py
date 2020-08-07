@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Top-level package for pyrobo."""
+"""Nivel superior del paquete pyrobo."""
 
 __author__ = """Nicolas Guarin-Zapata"""
 __email__ = 'nicoguarin@gmail.com'
