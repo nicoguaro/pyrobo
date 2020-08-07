@@ -30,12 +30,16 @@ def test_content(response):
 def test_command_line_interface():
     """Test the CLI."""
     runner = CliRunner()
-    result = runner.invoke(cli.main, ['1'])
+    result = runner.invoke(cli.main, ['--pos', '1'])
     assert result.exit_code == 0
     assert '¡Abrite que ya perdiste maricona!' in result.output
+
+    # Mensaje de ayuda
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
-    assert '--help  Show this message and exit.' in help_result.output
+    assert 'pos INTEGER    Número de la frase deseada.' in help_result.output
+    assert '--culto BOOLEAN  Mostrar versión culta de la frase.' in help_result.output
+    assert '--help           Muestra este mensaje y termina la ejecución.' in help_result.output
 
 
 def test_hablame(capsys):
@@ -50,4 +54,7 @@ def test_hablame(capsys):
     assert u"\n\n" in captured.out    
     assert u"El Zarco" in captured.out
   
-   
+
+def test_frases():
+    assert len(pyrobo.frases) == len(pyrobo.frases_cultas)
+    assert len(pyrobo.frases) == len(pyrobo.personajes)   

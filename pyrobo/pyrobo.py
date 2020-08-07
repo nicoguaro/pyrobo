@@ -21,7 +21,11 @@ frases = [
     "¡Oee, oee, fuck you men gonorreas!",
     "Hágale que todo bien.",
     "¡¿No pues que ya no metías nada ome?!",
-    "Tenga la bondad de respetarme si usted quiere que lo respeten, ¡maricón!"]
+    "Tenga la bondad de respetarme si usted quiere que lo respeten, ¡maricón!",
+    "Mamita, un piquito allá donde llega el papel higiénico…",
+    "Yo tengo lo mío, me compro lo mío.",
+    "¡Ay, no! Es que las mamás son muy gonorreas, usted se tiene que hacer respetar.",
+    "No he ido porque me va a cascar."]
 
 frases_cultas = [
     "¿De qué sirve el calzado sin morada?, ¡basta de tiquismiquis!",
@@ -32,12 +36,16 @@ frases_cultas = [
     "Yo te lamería como a fruto de mangifera.",
     "Del paraíso a la podredumbre.",
     "¡Enhorabuena! Guapa, ¿a qué te dedicas en tan lúgubre lugar? Quisiera continuar esta conversación en mi habitación.",
-    "¡Disculpa pequeño! ¿Por qué se esconde? ¿trae el caballo de Troya?",
+    "¡Disculpa pequeño! ¿Por qué te escondes? ¿traes el caballo de Troya?",
     "¡Este sujeto arruinó nuestra noche buena!",
     "¡Oigan! ¡bless your hearts, buenos hombres!",
     "Adelante, no hay líos.",
     "Pensaba que practibas la abstinencia.",
-    "El respeto dado es la medida del respeto recibido, ¡buen hombre!"]
+    "El respeto dado es la medida del respeto recibido, ¡buen hombre!",
+    "Bella mujer, deseo besarte donde no te da el sol.",
+    "Mis cosas son fruto de mi trabajo.",
+    "Las mamás son muy complicadas, debes saber defender tus derechos.",
+    "No he ido porque me daría una golpiza."]
 
 
 personajes = ["Chinga",
@@ -53,6 +61,10 @@ personajes = ["Chinga",
               "Judy",
               "Mónica",
               "Mónica",
+              "Andrea",
+              "Choco",
+              "Don Héctor",
+              "Yudi",
               "Andrea"]
 
 
@@ -69,6 +81,26 @@ def hablame(pos=None):
     if pos is None or pos >= num_frases:
         pos = random_integers(0, num_frases - 1)
     frase = frases[pos]
+    personaje = personajes[pos]
+    espacios_autor = (len(frase) - len(personaje))*" "
+    msj = u"❝{}❞\n\n{}{}".format(frase, espacios_autor, personaje)
+    print(msj)
+    return None
+
+
+def cuentame(pos=None):
+    u"""Imprime una frase de la vendedora de rosas
+
+    Parámetros
+    ----------
+    val : int, opcional
+        Posición de la frase en la lista de frases.
+
+    """
+    num_frases = len(frases_cultas)
+    if pos is None or pos >= num_frases:
+        pos = random_integers(0, num_frases - 1)
+    frase = frases_cultas[pos]
     personaje = personajes[pos]
     espacios_autor = (len(frase) - len(personaje))*" "
     msj = u"❝{}❞\n\n{}{}".format(frase, espacios_autor, personaje)

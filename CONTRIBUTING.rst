@@ -1,8 +1,8 @@
 .. highlight:: shell
 
-=========================
+==========================
 ¿Cómo contribuir a pyrobo?
-=========================
+==========================
 
 ¡Las contribuciones son bienvenidas, y muy apreciadas! Cada detalle
 ayuda, y el crédito siempre será dado.
@@ -10,7 +10,18 @@ ayuda, y el crédito siempre será dado.
 Puedes contribuir de muchas maneras:
 
 Tipos de contribuciones
-----------------------
+-----------------------
+
+Sugerir nuevas frases
+~~~~~~~~~~~~~~~~~~~~~
+
+sugerir frases en https://github.com/nicoguaro/pyrobo/issues.
+
+Si sugiere una frase nueva, incluya lo siguiente:
+
+* La frase.
+* Personaje que dice la frase.
+* Pasos detallados para reproducir el error.
 
 Reportar errores
 ~~~~~~~~~~~~~~~~
@@ -20,13 +31,16 @@ Informando errores en https://github.com/nicoguaro/pyrobo/issues.
 Si informa un error, incluya lo siguiente:
 
 * El nombre y la versión de su sistema operativo.
-* Cualquier detalle sobre su configuración local que pueda ser útil para solucionar problemas.
+* Cualquier detalle sobre su configuración local que pueda ser útil para
+  solucionar problemas.
 * Pasos detallados para reproducir el error.
 
 Corregir errores
 ~~~~~~~~~~~~~~~~
 
-Consulte los *issues* de GitHub  para encontrar errores. Cualquier cosa etiquetada con "error" y "help wanted" está abierta a quien quiera implementarlo.
+Consulte los *issues* de GitHub  para encontrar errores. Cualquier cosa
+etiquetada con "error" y "help wanted" está abierta a quien quiera
+implementarlo.
 
 Implementar funciones
 ~~~~~~~~~~~~~~~~~~~~~
@@ -45,26 +59,31 @@ publicaciones de blogs, artículos, etc.
 Enviar comentarios
 ~~~~~~~~~~~~~~~~~~
 
-La mejor forma de enviar comentarios es presentar un problema en https://github.com/nicoguaro/pyrobo/issues.
+La mejor forma de enviar comentarios es presentar un problema en
+https://github.com/nicoguaro/pyrobo/issues.
 
 Si está proponiendo una nueva funcionalidad:
 
 * Explica en detalle cómo funcionaría.
-* Mantenga el alcance lo más estrecho posible, para que sea más fácil de implementar.
-* Recuerde que este es un proyecto impulsado por voluntarios, y que las contribuciones
-  son bienvenidos :)
+* Mantenga el alcance lo más estrecho posible, para que sea más fácil de
+  implementar.
+* Recuerde que este es un proyecto impulsado por voluntarios, y que las
+  contribuciones son bienvenidos :)
 
 ¡Empieza!
 ---------
 
-¿Listo para contribuir? A continuación se explica cómo configurar `pyrobo` para el desarrollo local.
+¿Listo para contribuir? A continuación se explica cómo configurar `pyrobo` para
+el desarrollo local.
 
 1. *Fork* el repositorio `pyrobo` en GitHub.
 2. Clona tu tenedor localmente ::
 
     $ git clone git@github.com: tu_nombre_aquí / pyrobo.git
 
-3. Instala tu copia local en un virtualenv. Suponiendo que tienes virtualenvwrapper instalado, así es como configura su tenedor para el desarrollo local ::
+3. Instala tu copia local en un virtualenv. Suponiendo que tienes virtualenv
+   wrapper instalado, así es como configura su tenedor para el desarrollo
+   local ::
 
     $ mkvirtualenv pyrobo
     $ cd pyrobo /
@@ -99,12 +118,13 @@ Pautas para *Pull Request*
 Antes de enviar una solicitud de extracción, verifique que cumpla con estas pautas:
 
 1. La solicitud de extracción debe incluir pruebas.
-2. Si la solicitud de extracción agrega funcionalidad, los documentos deben actualizarse. Poner
-   su nueva funcionalidad en una función con un docstring, y agregue el
-   característica a la lista en README.rst.
-3. La solicitud de extracción debería funcionar para Python 2.7, 3.4, 3.5 y 3.6, y para PyPy. Comprobar
-   https://travis-ci.org/nicoguaro/pyrobo/pull_requests
-   y asegúrese de que las pruebas pasen para todas las versiones compatibles de Python.
+2. Si la solicitud de extracción agrega funcionalidad, los documentos deben
+   actualizarse. Poner su nueva funcionalidad en una función con un docstring,
+   y agregue el característica a la lista en README.rst.
+3. La solicitud de extracción debería funcionar para Python 3.6+, y para PyPy.
+   Comprobar https://travis-ci.org/nicoguaro/pyrobo/pull_requests
+   y asegúrese de que las pruebas pasen para todas las versiones compatibles
+   de Python.
 
 Consejos
 --------
@@ -119,8 +139,8 @@ Despliegue
 
 Un recordatorio para los mantenedores sobre cómo implementar.
 
-Asegúrese de que se hayan confirmado todos sus cambios (incluida una entrada en HISTORY.rst).
-Entonces corre::
+Asegúrese de que se hayan confirmado todos sus cambios (incluida una entrada en
+HISTORY.rst). Entonces corre::
 
 Parche de $ bumpversion # posible: mayor / menor / parche
 $ git push
